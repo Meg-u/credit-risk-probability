@@ -13,7 +13,6 @@ A clear, interpretable, and well-documented model builds trust, enables validati
 - Basel II Capital Accord Summary (Risk-Officer) (https://www.risk-officer.com/Credit_Risk.htm)
 - Corporate Finance Institute — Credit Risk (https://corporatefinanceinstitute.com/resources/commercial-lending/credit-risk/)
 
----
 
 2.  Since we lack a direct “default” label, why is creating a proxy variable necessary, and what are the potential business risks of making predictions based on this proxy?
 
@@ -30,11 +29,10 @@ When no direct default label exists, a thoughtfully designed proxy is crucial �
 
 - HKMA — Alternative Credit Scoring (https://www.hkma.gov.hk/media/eng/doc/key-functions/financial-infrastructure/alternative_credit_scoring.pdf)
 
----
-
 3. What are the key trade-offs between using a simple, interpretable model (like Logistic Regression with WoE) versus a complex, high-performance model (like Gradient Boosting) in a regulated financial context?
 
-Simple, interpretable models (e.g., Logistic Regression with Weight of Evidence (WoE)): \*_Pros_  
+Simple, interpretable models (e.g., Logistic Regression with Weight of Evidence (WoE)): 
+\*_Pros_  
 -High transparency: easy to explain feature impacts and scoring rules  
 -Well-established in banking and credit scoring; easier to justify to regulators  
 -Faster to implement and validate  
@@ -49,7 +47,7 @@ Complex, high-performance models (e.g., Gradient Boosting, Random Forests):
 \*_Pros_
 
 -Often yield higher predictive accuracy and capture subtle patterns  
-✅-Can improve profit margins by better distinguishing good vs. bad borrowers
+-Can improve profit margins by better distinguishing good vs. bad borrowers
 
 \*_Cons_
 
