@@ -1,4 +1,8 @@
-data/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Pythondata/
 venv/
 libraries/
 
@@ -6,3 +10,5 @@ matplotlib-3.10.3-cp310-cp310-win_amd64.whl
 notebook-7.4.4-py3-none-any.whl
 pandas-2.3.0-cp310-cp310-win_amd64.whl
 seaborn-0.13.2-py3-none-any.whl
+scikit_learn-1.7.0-cp310-cp310-win_amd64.whl
+models/
